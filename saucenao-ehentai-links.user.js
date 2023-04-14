@@ -1,5 +1,6 @@
 // ==UserScript==
 // @name         Show E-Hentai links on SauceNAO
+// @description  A userscript that adds E-Hentai (or optionally ExHentai, your choice) links to images SauceNAO got from there originally.
 // @namespace    https://easrng.net
 // @match        https://saucenao.com/*
 // @grant        GM_registerMenuCommand
@@ -7,10 +8,11 @@
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @grant        GM_addValueChangeListener
-// @version      1.0
+// @version      1.1
 // @author       easrng
 // @run-at       document-end
 // @download-url https://easrng.github.io/saucenao-ehentai-links/saucenao-ehentai-links.user.js
+// @license      be gay do crime
 // ==/UserScript==
 (function () {
   let useExhentai = Boolean(GM_getValue("useExhentai"));
